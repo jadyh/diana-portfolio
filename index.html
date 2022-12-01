@@ -210,108 +210,29 @@
       </div>
       <button class="hire_me_btn">View All</button>
     </section>
-    <section class="blog">
-      <div class="blog_header">
+    <section class="contact">
+      <img src="./assets/contact.png" height="300px">
+      <div class="input_section">
+        <div class="blog_header con">
         <div class="section_header">
           <span class="line"></span>
-          <span class="header_text">Blog</span>
+          <span class="header_text">Contact</span>
         </div>
-        <h1>Read More, Write More</h1>
+        <h1>Ask Me Anything</h1>
+        </div>
+        <div class="inputs_wrapper">
+          <div class="double_input">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+          </div>
+          <div class="double_input">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+          </div>
+          <textarea placeholder="Your Message Here"></textarea>
+        </div>
+      <button class="hire_me_btn" style="margin-top: 20px">Send</button>
       </div>
-      <div class="blog_cards">
-        <div class="card">
-          <div class="card_image_wrapper">
-            <img src="./assets/blog-1.jpg" alt="Blog 1" class="blog-image" />
-          </div>
-          <div class="card_content">
-            <div class="card_top">
-              <p class="card_date">19 Nov 2021</p>
-              <div class="views_wrapper">
-                <i class="fa-solid fa-eye"></i>
-                <span class="views">255</span>
-              </div>
-            </div>
-            <div class="card_botton">
-              <p class="card_content_header">Content Writing</p>
-              <p class="card_content_desc">
-                Content writing is the process of editing web content, typically
-                for digital marketing purposes.
-              </p>
-              <a href="#" class="read_more_btn"> Read More </a>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card_image_wrapper">
-            <img src="./assets/blog-2.jpg" alt="Blog 2" class="blog-image" />
-          </div>
-          <div class="card_content">
-            <div class="card_top">
-              <p class="card_date">19 Nov 2021</p>
-              <div class="views_wrapper">
-                <i class="fa-solid fa-eye"></i>
-                <span class="views">255</span>
-              </div>
-            </div>
-            <div class="card_botton">
-              <p class="card_content_header">Content Writing</p>
-              <p class="card_content_desc">
-                Content writing is the process of editing web content, typically
-                for digital marketing purposes.
-              </p>
-              <a href="#" class="read_more_btn"> Read More </a>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card_image_wrapper">
-            <img src="./assets/blog-3.jpg" alt="Blog 3" class="blog-image" />
-          </div>
-          <div class="card_content">
-            <div class="card_top">
-              <p class="card_date">19 Nov 2021</p>
-              <div class="views_wrapper">
-                <i class="fa-solid fa-eye"></i>
-                <span class="views">255</span>
-              </div>
-            </div>
-            <div class="card_botton">
-              <p class="card_content_header">Content Writing</p>
-              <p class="card_content_desc">
-                Content writing is the process of editing web content, typically
-                for digital marketing purposes.
-              </p>
-              <a href="#" class="read_more_btn"> Read More </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="hire_me_btn">View All</button>
     </section>
-    <!-- COMPONENTS -->
-    <template id="cool-timer">
-      <style>
-        p.timer-display {
-          display: block;
-          padding: 20px;
-          border-radius: 5px;
-          font-size: 3em;
-          border: 1px solid #212121;
-          color: #212121;
-          background: #fff;
-        }
-
-        p {
-          background: #eb6;
-          color: #212121;
-          padding: 5px;
-        }
-      </style>
-      <p class="timer-display"><span id="timer">0</span> seconds</p>
-      <p>
-        <!-- A custom description that can be overridden in markup -->
-        <slot name="timer-description">This is the coolest timer ever!</slot>
-      </p>
-    </template>
   </body>
 </html>
